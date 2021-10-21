@@ -1,69 +1,97 @@
-.container-fluid{
-  background-color: rgb(247, 102, 102);
-  height: 657px;
+.table-img {
+  height: 10vh;
+  width: 10vh;
 }
-.wrapper{
-  margin-right: auto;
-  margin-left: auto;
-  min-width: 960px;
-  padding-right: 10px;
-  padding-left: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+form button {
+  margin: 5px;
 }
-.main{
-  width: 50%;
-  margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgb(250, 248, 248);
-  overflow: hidden;
-  box-shadow: 8px 8px 30px 10px #702f2f;
-  height: auto;
+.modal-wrapper {
+  background: white;
+  border: 1px solid #d0cccc;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  margin: 100px auto 0;
+  transition: all 0.8s;
+  width: 60%;
+  border-radius: 10px;
+}
+
+.modal-header {
+  background: #e2e2e2;
+  height: 40px;
+  line-height: 40px;
+  padding: 5px 20px;
+  text-align: right;
+}
+
+.modal-header h2 {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-body {
+  padding: 10px 15px;
   text-align: center;
+  height: 200px;
 }
-.main h2{
-  background-color: rgb(105, 53, 53);
-  height: 80px;
+
+.modal-footer {
+  background: #e2e2e2;
+  height: 35px;
+  padding: 15px;
+}
+
+.close-modal-btn {
   color: white;
-  padding-top: 20px;
+  cursor: pointer;
+  float: right;
+  font-size: 30px;
+  margin: 0;
 }
-.date-time{
-  color: #f12222;
+
+.close-modal-btn:hover {
+  color: black;
 }
-.tagline{
-  color: gray;
-  padding-top: 15px;
-  font-family: impact;
-  font-size: 18px;
-  letter-spacing: 1px;
+
+.btn-cancel {
+  background-color: #b71c1c;
+  float: left;
 }
-.weather-search input{
-  border: rgb(68, 31, 31)0.5px solid ;
-  padding: 6px 10px;
-  border-radius: 5px;
-  background-color: rgb(252, 206, 206);
+
+.btn-continue {
+  background-color: #1b5e20;
+  float: right;
 }
-.weather-search button{
-  border: rgb(75, 33, 33) 0.5px solid ;
-  padding: 6px 10px;
-  border-radius: 5px;
-  background-color: rgb(252, 206, 206);
-  color: #f12222;
+.back-shed {
+  background-color: rgba(48, 49, 48, 0.42);
+  height: 100%;
+  position: fixed;
+  transition: all 1.3s;
+  width: 100%;
 }
-.weather-info p{
-  color: rgb(109, 108, 108);
-  padding-top: 12px;
-  font-weight: 500;
+.open-modal-btn {
+  margin: 15px;
+  padding: 10px;
 }
-.weather-data__box {
-  display: flex !important;
-  justify-content: center;
-  justify-content: space-evenly;
+.table td {
+  font-family: serif;
 }
-.footer{
-  color: gray;
+.modal-body {
+  height: auto;
+  text-align: left;
+}
+.modal-wrapper {
+  width: 70%;
+}
+.modal-header {
+  background-color: rgb(245, 202, 202);
+}
+.modal-header span {
+  color: rgb(158, 60, 60);
+}
+.img-side img {
+  height: 15vh;
+  width: 15vh;
+  border-radius: 10%;
+  margin: 10px;
 }
